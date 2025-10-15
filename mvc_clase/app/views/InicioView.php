@@ -28,3 +28,19 @@
         </div>
     </div>
 </div>
+
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4" style="max-height:250px; overflow: hidden;">
+            <a href="/mvc_clase/public/post/diados"><img src="./images/dia2/ponencia1_p2.png" alt="Dia 2" class="img-fluid rounded-start" style="width:100%; height:100%; object-fit:cover;"></a>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <a href="/mvc_clase/public/post/diados" class="text-light text-decoration-none"><h3 class="card-title">Dia 2</h3></a>
+                <p class="card-text"><small class="text-body-secondary">14 de Octubre de 2025</small></p>
+                <div class="d-flex flex-column justify-content-center h-100"><p class="card-text">El martes 14 de octubre de 2025, la <b>Semana de Sistemas</b> continuó con entusiasmo, aunque las condiciones climáticas ocasionadas por las lluvias en el país obligaron a suspender las actividades presenciales...</p></div>
+                <a href="/mvc_clase/public/post/diados" class="card-text link-info"><small class="text-body-info">Leer mas...</small></a>
+            </div>
+        </div>
+    </div>
+</div>

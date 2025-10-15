@@ -64,6 +64,7 @@
     <p>La segunda exposición abordó el fascinante mundo de la <b>Inteligencia Artificial Generativa</b>. El ponente explicó cómo herramientas modernas como n8n permiten automatizar tareas sin necesidad de saber programar, abriendo oportunidades a cualquier persona, incluso sin formación técnica, para crear soluciones digitales.</p>
     <p>Además, rindió homenaje a Alan Turing, pionero de la computación moderna, recordando su papel en la creación del primer test de inteligencia artificial y su contribución decisiva en la descodificación de la máquina Enigma durante la Segunda Guerra Mundial.</p>
     <p>Se destacó cómo la IA generativa impulsa la productividad en empresas y facilita la vida cotidiana al permitir crear sistemas inteligentes de forma accesible.</p>
+    <p>Tambien nos enseño el que era la <b>redes antagonicas (GAN)</b> nos dio una analogia con pidiendole a nanobanana que le haga un gato, poco a poco fue agarrando forma a gato esto gracias a las redes antagonicas.</p>
 </div>
 
 <div class="border p-3 rounded-2 mb-3">

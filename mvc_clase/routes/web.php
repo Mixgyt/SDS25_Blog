@@ -7,6 +7,7 @@
     Route::get("/informacion",[InicioController::class,'informacion']);
     //Rutas para los posts
     Route::get("/post/diauno",[PostController::class,'diauno']);
+    Route::get("/post/diados",[PostController::class,'diados']);
 
     Route::dispatch();
 ?>
