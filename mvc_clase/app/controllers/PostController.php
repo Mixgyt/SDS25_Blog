@@ -13,5 +13,11 @@
             $name_view = "DiaDosView";
             return $this->view($name_view,["title"=>$titulo,"pagina"=>"DiaDos"]);
         }
+
+        public function diatres(){
+            $titulo = "Dia 3 - SDS 25";
+            $name_view = "DiaTresView";
+            return $this->view($name_view,["title"=>$titulo,"pagina"=>"DiaTres"]);
+        }
     }
 ?>
