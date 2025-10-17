@@ -19,5 +19,11 @@
             $name_view = "DiaTresView";
             return $this->view($name_view,["title"=>$titulo,"pagina"=>"DiaTres"]);
         }
+
+        public function diacuatro(){
+            $titulo = "Dia 4 - SDS 25";
+            $name_view = "DiaCuatroView";
+            return $this->view($name_view,["title"=>$titulo,"pagina"=>"DiaCuatro"]);
+        }
     }
 ?>

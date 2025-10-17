@@ -9,6 +9,7 @@
     Route::get("/post/diauno",[PostController::class,'diauno']);
     Route::get("/post/diados",[PostController::class,'diados']);
     Route::get("/post/diatres",[PostController::class,'diatres']);
+    Route::get("/post/diacuatro",[PostController::class,'diacuatro']);
 
     Route::dispatch();
 ?>

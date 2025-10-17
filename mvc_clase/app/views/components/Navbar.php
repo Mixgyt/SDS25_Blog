@@ -10,6 +10,9 @@
           <a class="nav-link<?= $pagina == "Inicio" ? " active" : "" ?>" aria-current="page" href="/mvc_clase/public">Inicio</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link<?= $pagina == "Blog" ? " active" : "" ?>" aria-current="page" href="/mvc_clase/public/blog">Blog</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link<?= $pagina == "Informacion" ? " active" : "" ?>" href="/mvc_clase/public/informacion">Mi Informacion</a>
         </li>
         <li class="nav-item">

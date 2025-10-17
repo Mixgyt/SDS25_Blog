@@ -48,7 +48,7 @@
 <div class="card mb-3">
     <div class="row g-0">
         <div class="col-md-4" style="max-height:250px; overflow: hidden;">
-            <a href="/mvc_clase/public/post/diados"><img src="./images/dia3/torneo_cancelado.jpeg" alt="Dia 3" class="img-fluid rounded-start" style="width:100%; height:100%; object-fit:cover;"></a>
+            <a href="/mvc_clase/public/post/diatres"><img src="./images/dia3/torneo_cancelado.jpeg" alt="Dia 3" class="img-fluid rounded-start" style="width:100%; height:100%; object-fit:cover;"></a>
         </div>
         <div class="col-md-8">
             <div class="card-body">
@@ -56,6 +56,22 @@
                 <p class="card-text"><small class="text-body-secondary">15 de Octubre de 2025</small></p>
                 <div class="d-flex flex-column justify-content-center h-100"><p class="card-text">El día 15 de Octubre se tenia que realizar el torneo de futbol de la <b>SDS25</b> pero debido a los problemas de la lluvia el evento ha tenido que ser lamentablemente cancelado. Llevando asi tambien una disculpa de los organizadores y comprension de los estudiantes debido a la situacion fuera de nuestro control...</p></div>
                 <a href="/mvc_clase/public/post/diatres" class="card-text link-info"><small class="text-body-info">Leer mas...</small></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4" style="max-height:250px; overflow: hidden;">
+            <a href="/mvc_clase/public/post/diacuatro"><img src="./images/dia4/sds25_4_portada.jpeg" alt="Dia 4" class="img-fluid rounded-start" style="width:100%; height:100%; object-fit:cover;"></a>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <a href="/mvc_clase/public/post/diacuatro" class="text-light text-decoration-none"><h3 class="card-title">Dia 4</h3></a>
+                <p class="card-text"><small class="text-body-secondary">16 de Octubre de 2025</small></p>
+                <div class="d-flex flex-column justify-content-center h-100"><p class="card-text">Una reunion para mostrar proyectos, talleres y competencias que impulsan la innovación, el aprendizaje práctico y la colaboración en la comunidad de sistemas...</p></div>
+                <a href="/mvc_clase/public/post/diacuatro" class="card-text link-info"><small class="text-body-info">Leer mas...</small></a>
             </div>
         </div>
     </div>
