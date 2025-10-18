@@ -10,13 +10,22 @@
           <a class="nav-link<?= $pagina == "Inicio" ? " active" : "" ?>" aria-current="page" href="/mvc_clase/public">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link<?= $pagina == "Blog" ? " active" : "" ?>" aria-current="page" href="/mvc_clase/public/blog">Blog</a>
+            <a class="nav-link dropdown-toggle<?= str_contains($pagina, "Dia") ? " active" : "" ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/mvc_clase/public/post/diauno">Día 1</a></li>
+            <li><a class="dropdown-item" href="/mvc_clase/public/post/diados">Día 2</a></li>
+            <li><a class="dropdown-item" href="/mvc_clase/public/post/diatres">Día 3</a></li>
+            <li><a class="dropdown-item" href="/mvc_clase/public/post/diacuatro">Día 4</a></li>
+            <li><a class="dropdown-item" href="/mvc_clase/public/post/diacinco">Día 5</a></li>
+            </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link<?= $pagina == "Informacion" ? " active" : "" ?>" href="/mvc_clase/public/informacion">Mi Informacion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link<?= $pagina == "form" ? " active" : "" ?>" href="#">Formulario</a>
+          <a class="nav-link<?= $pagina == "form" ? " active" : "" ?>" href="/mvc_clase/public/registro">Registro</a>
         </li>
       </ul>
     </div>

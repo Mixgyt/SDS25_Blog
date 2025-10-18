@@ -11,13 +11,16 @@
 
         public static function getConnection(){
             try{
-                $conn = new PDO("mysql:host=".self::$host.";dbname=".self::$name,self::$username,self::$password);
-                $conn->exec("set names utf8");
-                $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-                return $conn;
+            $conn = new PDO("mysql:host=".self::$host.";dbname=".self::$name,self::$username,self::$password);
+            $conn->exec("set names utf8");
+            $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+            
+            return $conn;
             }catch(PDOException $exception){
-                echo "Error: ".$exception->getMessage();
+            echo "Error: ".$exception->getMessage();
             }
         }
+
+        
     }
 ?>

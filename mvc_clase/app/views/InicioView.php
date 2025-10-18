@@ -2,7 +2,9 @@
     <img src="./images/SDS25.jpg" alt="Portada" class="card-img">
     <div class="card-img-overlay align-content-center bg-black bg-opacity-50">
         <h3 class="card-title">SDS 25</h3>
-        <p class="card-text">Este es un blog del evento de la <b>Semana de Sistemas</b> realizado por tradicion de la carrera de <b>Ingenieria de Sistemas Informaticos</b> de la FMOUES celebrado cada año de y para los estudiantes de la carrera, para obtener momentos de recreacion y aprendizaje en convivencia de los demas.</p>
+        <p class="card-text">Este es un blog dedicado a documentar y compartir las experiencias vividas durante la <b>Semana de Sistemas 2025</b>, un evento emblemático organizado por la carrera de <b>Ingeniería de Sistemas Informáticos</b> de la Facultad Multidisciplinaria de Oriente de la Universidad de El Salvador (FMOUES).</p>
+        <p class="card-text">Esta tradición anual representa mucho más que un simple evento académico: es un espacio de encuentro donde estudiantes, docentes y profesionales del área se reúnen para compartir conocimientos, participar en actividades recreativas y fortalecer los lazos de la comunidad universitaria.</p>
+        <p class="card-text">Aquí encontrarás un recorrido día a día por todas las actividades realizadas, desde ponencias especializadas y talleres prácticos, hasta competencias deportivas, eventos culturales y momentos de convivencia que hacen de esta semana una experiencia única e inolvidable para todos los participantes.</p>
         <p class="card-text"><small class="text-body-secondary">Realizado del 13 al 17 de Octubre de 2025</small></p>
     </div>
 </div>
@@ -70,8 +72,24 @@
             <div class="card-body">
                 <a href="/mvc_clase/public/post/diacuatro" class="text-light text-decoration-none"><h3 class="card-title">Dia 4</h3></a>
                 <p class="card-text"><small class="text-body-secondary">16 de Octubre de 2025</small></p>
-                <div class="d-flex flex-column justify-content-center h-100"><p class="card-text">Una reunion para mostrar proyectos, talleres y competencias que impulsan la innovación, el aprendizaje práctico y la colaboración en la comunidad de sistemas...</p></div>
+                <div class="d-flex flex-column justify-content-center h-100"><p class="card-text">Una dia para mostrar proyectos, talleres y competencias que impulsan la innovación, el aprendizaje práctico y la colaboración en la comunidad de sistemas, mientras nos divertiamos en la comelona de pupusas...</p></div>
                 <a href="/mvc_clase/public/post/diacuatro" class="card-text link-info"><small class="text-body-info">Leer mas...</small></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4" style="max-height:250px; overflow: hidden;">
+            <a href="/mvc_clase/public/post/diacinco"><img src="./images/dia5/diplomas_entrega.jpeg" alt="Dia 5" class="img-fluid rounded-start" style="width:100%; height:100%; object-fit:cover;"></a>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <a href="/mvc_clase/public/post/diacinco" class="text-light text-decoration-none"><h3 class="card-title">Dia 5</h3></a>
+                <p class="card-text"><small class="text-body-secondary">17 de Octubre de 2025</small></p>
+                <div class="d-flex flex-column justify-content-center h-100"><p class="card-text">El último día de la <b>Semana de Sistemas</b> culmina con la clausura del evento, bingo virtual, premiaciones, un torneo de clash royale y una fiesta nocturna, guardando en nuestra memoria esta semana y los logros obtenidos durante este periodo como ingenieros en sistemas..</p></div>
+                <a href="/mvc_clase/public/post/diacinco" class="card-text link-info"><small class="text-body-info">Leer mas...</small></a>
             </div>
         </div>
     </div>

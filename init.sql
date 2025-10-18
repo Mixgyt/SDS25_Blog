@@ -1,0 +1,8 @@
+    CREATE DATABASE IF NOT EXISTS appdb;
+
+USE appdb;
+
+CREATE TABLE IF NOT EXISTS tbl_usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre TEXT NOT NULL
+);

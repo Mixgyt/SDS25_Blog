@@ -22,6 +22,10 @@
                 <i class="fas fa-university me-2"></i>
                 <span class="fw-bold">Universidad:</span> Universidad de El Salvador (UES)
             </p>
+            <p class="fs-5 mb-2">
+                <i class="fas fa-id-card me-2"></i>
+                <span class="fw-bold">DUE: </span> AA23026
+            </p>
             <p class="fs-5 mb-0">
                 <i class="fas fa-graduation-cap me-2"></i>
                 <span class="fw-bold">Carrera:</span> Ingeniería de Sistemas Informáticos

@@ -5,6 +5,9 @@
 
     Route::get("/",[InicioController::class,'index']);
     Route::get("/informacion",[InicioController::class,'informacion']);
+    Route::get("/registro",[InicioController::class,'registro']);
+
+    Route::post("/registrar",[InicioController::class,'registrar']);
     //Rutas para los posts
     Route::get("/post/diauno",[PostController::class,'diauno']);
     Route::get("/post/diados",[PostController::class,'diados']);

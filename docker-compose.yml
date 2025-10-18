@@ -27,6 +27,7 @@ services:
     ports:
       - "3306:3306"         # Opcional exponerlo al host
     volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - db_data:/var/lib/mysql
     healthcheck:
       test: ["CMD-SHELL", "mysqladmin ping -h localhost -prootpass || exit 1"]
